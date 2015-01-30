@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+
+        <div ng-app="Puppies">
+
+            <ul id="stupid-nav" ng-controller="NavController">
+                <li ui-sref="home">Home</li>
+                <li ui-sref="list">Puppies</li>
+            </ul>
+
+            <div ui-view>
+            </div>
+
+        </div>
+
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="app.js"></script>
+
+    </body>
+</html>
